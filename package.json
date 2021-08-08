@@ -1,5 +1,5 @@
 {
-  "name": "deep-thoughts",
+  "name": "paris-perspectives",
   "version": "1.0.0",
   "description": "",
   "main": "server/server.js",
@@ -13,18 +13,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marcysko/deep-thoughts.git"
+    "url": "git+https://github.com/marcysko/ParisPerspectives.git"
   },
   "author": "Marcia Skousen",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/marcysko/deep-thoughts/issues"
+    "url": "https://github.com/marcysko/ParisPerspectives/issues"
   },
-  "homepage": "https://github.com/marcysko/deep-thoughts#readme",
+  "homepage": "https://github.com/marcysko/ParisPerspectives#readme",
   "devDependencies": {
     "concurrently": "^6.2.0"
   },
   "dependencies": {
+    "@apollo/client": "^3.4.5",
+    "graphql": "^15.5.1",
     "if-env": "^1.0.4"
   }
 }
